@@ -1,0 +1,97 @@
+.deck-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body{
+    width: auto;
+    height: 30em;
+    border-radius: 10%;
+    position:relative;
+    color: white;
+}
+.card-body .card-border{
+    width: fit-content;
+    height: 100%;
+    border-radius: 10%;
+}
+.card-body .card-title{
+    height: fit-content;
+    width: fit-content;
+    position:absolute; 
+    left:7em;
+    top:3em;
+    z-index: 2;
+    font-weight: bold;
+}
+.card-body .card-cost{
+    color: black;
+    font-weight: bold;
+    position: absolute; 
+    left: 4.3em;
+    top: 2.5em;
+    z-index: 2;
+}
+.card-body .card-image-box{
+    width: 70%;
+    height: 40%;
+    background-color: blue;
+    position:absolute; 
+    left:3.3em;
+    top:6em;
+    z-index: -1;
+}
+.card-image-box .card-image{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.card-body .card-class{
+    height: 3%;
+    width: 25%;
+    position:absolute; 
+    left:3.5em;
+    bottom:10em;
+    z-index: 2;
+}
+.card-class span{
+  font-size: 0.8vw;
+}
+.card-body .card-subclass{
+    height: 3%;
+    width: 25%;
+    position:absolute; 
+    right:3.5em;
+    bottom:10em;
+    z-index: 2;
+}
+.card-body .card-info{
+    font-size: small;
+    height: 10%;
+    width: 60%;
+    position:absolute; 
+    left: 4.5em;
+    bottom: 6em;
+    z-index: 2;
+}
+.card-body .card-stats{
+    height: fit-content;
+    width: fit-content;
+    position:absolute; 
+    left: 4.2em;
+    bottom: 2em;
+    z-index: 2;
+}
+.card-body .card-rarity{
+    height: 3em;
+    width: 3em;
+    position:absolute; 
+    right: 3em;
+    bottom: 1em;
+    z-index: 2;
+}
+.card-rarity .rarity-img{
+    width: 100%;
+    height: 100%;
+
+}

@@ -1,0 +1,45 @@
+[
+    {
+        "title": "ALIUS MAUKAS",
+        "image": "captain_AliusMaukas.jpg",
+        "class": "KAPITONAS",
+        "subclass": "PIRATAS",
+        "effect": "Kol šis kapitonas būna flagmane, tu negali naudoti manevrų.",
+        "motto": "\"Kaip aš manevruosiu, jei rankos bokalą laiko?\"",
+        "attack": 0,
+        "defence": 6,
+        "rarity": "captain_bronze.png",
+        "border": "captain_card_borders.png"
+    },
+    {
+        "title": "FLIKTORIJA",
+        "image": "ship_Fliktorija.png",
+        "class": "LAIVAS",
+        "cost": 4,
+        "effect": "Šio laivo kapitonas gali būti tik piratas.",
+        "motto": "Net pats Neptūnas nedrįsta jo skandinti. Garbės žodis!",
+        "attack": 7,
+        "defence": 5,
+        "rarity": "ship_gold.png",
+        "border": "ship_card_borders.png"
+    },
+    {
+        "title": "KATAPULTA",
+        "image": "weapon_Katapulta.png",
+        "class": "GINKLAS",
+        "effect": "+2 puolimo taškai pasirinktam laivui.",
+        "motto": "Sunku pataikyti, bet jeigu jau pataiko...",
+        "rarity": "weapon_bronze.png",
+        "border": "weapon_card_borders.png"
+    },
+    {
+        "title": "APKAUSTIMAS",
+        "image": "maneuver_Apkaustimas.png",
+        "class": "MANEVRAS",
+        "effect": "+2 gynybos taškai pasirinktam laivui.",
+        "motto": "Ne visada antsvoris yra blogai.",
+        "rarity": "maneuver_bronze.png",
+        "border": "maneuver_card_borders.png",
+        "color": "black"
+    }
+]
