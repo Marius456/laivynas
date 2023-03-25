@@ -5,7 +5,7 @@ import cards from "./data/cards.json"
 function App() {
   return (
     <>
-    <div style={{display:"flex"}}>
+    <div style={{display:"flex",   flexWrap: "wrap"}}>
       {cards.map(item => (
         <Card {...item} />
       ))}

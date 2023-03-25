@@ -1,9 +1,9 @@
 [
     {
-        "title": "ALIUS MAUKAS",
+        "title": "Alius Maukas",
         "image": "captain_AliusMaukas.jpg",
-        "class": "KAPITONAS",
-        "subclass": "PIRATAS",
+        "class": "Kapitonas",
+        "subclass": "Piratas",
         "effect": "Kol šis kapitonas būna flagmane, tu negali naudoti manevrų.",
         "motto": "\"Kaip aš manevruosiu, jei rankos bokalą laiko?\"",
         "attack": 0,
@@ -12,9 +12,112 @@
         "border": "captain_card_borders.png"
     },
     {
-        "title": "FLIKTORIJA",
+        "title": "Ambalas Rembo",
+        "image": "captain_AmbalasRembo.jpg",
+        "class": "Kapitonas",
+        "subclass": "Piratas",
+        "effect": "Jo negalima pašalinti iš flagmano, o to flagmano negalima pakeisti kitu laivu.",
+        "motto": "Tikras kapitonas kaunasi iki mirties ir neturi kada galvoti.",
+        "attack": 6,
+        "defence": 0,
+        "rarity": "captain_bronze.png",
+        "border": "captain_card_borders.png"
+    },
+    {
+        "title": "Barmalėjus",
+        "image": "captain_Barmalejus.jpg",
+        "class": "Kapitonas",
+        "subclass": "Piratas",
+        "effect": "Jei puldamas laimi, susisprogdina.",
+        "motto": "Labai mėgsta žaidimą \"Siunčiam bombą rateliu su uždegtu degikliu.\"",
+        "attack": 4,
+        "defence": 3,
+        "rarity": "captain_gold.png",
+        "border": "captain_card_borders.png"
+    },
+    {
+        "title": "Debilas Bilas",
+        "image": "captain_DebilasBilas.png",
+        "class": "Kapitonas",
+        "subclass": "Piratas",
+        "effect": "Atėjęs į laivą, sugrąžina 1 kapitoną atgal į ranką.",
+        "motto": "\"Nebėkit, aš tik norėjau pasikal- bėti su jūsų galva...\"",
+        "attack": 2,
+        "defence": 0,
+        "rarity": "captain_bronze.png",
+        "border": "captain_card_borders.png"
+    },
+    {
+        "title": "Drąsuolis Fredis",
+        "image": "captain_DrasuolisFredis.jpg",
+        "class": "Kapitonas",
+        "subclass": "Piratas",
+        "effect": "Jam užpuolus, gynėjas gali ant savo flagmano išleisti dar vieną kapitoną.",
+        "motto": "Puola visus urmu.",
+        "attack": 6,
+        "defence": 2,
+        "rarity": "captain_silver.png",
+        "border": "captain_card_borders.png"
+    },
+    {
+        "title": "Galiūnas Žydrūnas",
+        "image": "captain_GaliunasZydrunas.jpg",
+        "class": "Kapitonas",
+        "subclass": "Piratas",
+        "motto": "\"Palaukit! Nesimuškit be manęs!!!\"",
+        "attack": 5,
+        "defence": 1,
+        "rarity": "captain_bronze.png",
+        "border": "captain_card_borders.png"
+    },
+    {
+        "title": "Kingas Kongas",
+        "image": "captain_KingasKongas.jpg",
+        "class": "Kapitonas",
+        "subclass": "Piratas",
+        "motto": "\"Rišk bandaną, eik į karą!\"",
+        "attack": 5,
+        "defence": 5,
+        "rarity": "captain_gold.png",
+        "border": "captain_card_borders.png"
+    },
+    {
+        "title": "Klausas Fon Biurgeris",
+        "image": "captain_KlausasFonBiurgeris.png",
+        "class": "Kapitonas",
+        "subclass": "Piratas",
+        "motto": "Mėgsta papypkinoti, sėdėdamas ant parako statinės.",
+        "attack": 1,
+        "defence": 5,
+        "rarity": "captain_bronze.png",
+        "border": "captain_card_borders.png"
+    },
+    {
+        "title": "Nervas Dūris",
+        "image": "captain_NervasDuris.jpg",
+        "class": "Kapitonas",
+        "subclass": "Piratas",
+        "motto": "Puola visus, kurių nepažįsta, todėl ir neturi pažįstamų.",
+        "attack": 3,
+        "defence": 1,
+        "rarity": "captain_bronze.png",
+        "border": "captain_card_borders.png"
+    },
+    {
+        "title": "Rėksnys Kuvaldas",
+        "image": "captain_ReksnysKuvaldas.jpg",
+        "class": "Kapitonas",
+        "subclass": "Piratas",
+        "motto": "A-a-a-a-a-a! Bum! A-a-a-a-a-a!!!",
+        "attack": 4,
+        "defence": 1,
+        "rarity": "captain_bronze.png",
+        "border": "captain_card_borders.png"
+    },
+    {
+        "title": "Fliktorija",
         "image": "ship_Fliktorija.png",
-        "class": "LAIVAS",
+        "class": "Laivas",
         "cost": 4,
         "effect": "Šio laivo kapitonas gali būti tik piratas.",
         "motto": "Net pats Neptūnas nedrįsta jo skandinti. Garbės žodis!",
@@ -24,20 +127,286 @@
         "border": "ship_card_borders.png"
     },
     {
-        "title": "KATAPULTA",
+        "title": "Akmenskaldys",
+        "image": "ship_Akmenskaldys.png",
+        "class": "Laivas",
+        "cost": 2,
+        "motto": "Iškaltas iš uolos, o iš toli kaip tikras laivas atrodo.",
+        "attack": 0,
+        "defence": 6,
+        "rarity": "ship_silver.png",
+        "border": "ship_card_borders.png"
+    },
+    {
+        "title": "Audrų Rūstybė",
+        "image": "ship_AudruRustybe.png",
+        "class": "Laivas",
+        "cost": 3,
+        "motto": "Geriau vandenyne susitikti baisią audrą, negu šį laivą. Audroje yra galimybė išgyventi.",
+        "attack": 4,
+        "defence": 4,
+        "rarity": "ship_silver.png",
+        "border": "ship_card_borders.png"
+    },
+    {
+        "title": "Jūros Ežys",
+        "image": "ship_JurosEzys.jpg",
+        "class": "Laivas",
+        "cost": 2,
+        "motto": "Šaudo aklai, nes napasiliko plyšelio apsidairyti.",
+        "attack": 5,
+        "defence": 1,
+        "rarity": "ship_silver.png",
+        "border": "ship_card_borders.png"
+    },
+    {
+        "title": "Klastingasis Spindulys",
+        "image": "ship_KlastingasisSpindulys.png",
+        "class": "Laivas",
+        "cost": 1,
+        "motto": "Apsimetęs švyturiu, prisivilioja laivus ir apšvitina smegenis paralyžiuojančiu spinduliu.",
+        "attack": 4,
+        "defence": 0,
+        "rarity": "ship_bronze.png",
+        "border": "ship_card_borders.png"
+    },
+    {
+        "title": "Nepramušamasis",
+        "image": "ship_Nepramusamasis.jpg",
+        "class": "Laivas",
+        "cost": 3,
+        "motto": "Sunku pataikyti, kai negali pajudinti privirintų patrankų.",
+        "attack": 1,
+        "defence": 7,
+        "rarity": "ship_bronze.png",
+        "border": "ship_card_borders.png"
+    },
+    {
+        "title": "Plūduras",
+        "image": "ship_Pluduras.png",
+        "class": "Laivas",
+        "cost": 1,
+        "motto": "Nuo bangos ant bangos kapitonas plūduriuos.",
+        "attack": 0,
+        "defence": 4,
+        "rarity": "ship_silver.png",
+        "border": "ship_card_borders.png"
+    },
+    {
+        "title": "Smailikas Skraiduolis",
+        "image": "ship_SmailikasSkraiduolis.png",
+        "class": "Laivas",
+        "cost": 3,
+        "effect": "Vieną kartą mūšyje gali vietoj flagmano užpulti kitą priešininko laivyno laivą.",
+        "motto": "\"Skrendu, kur noriu.\"",
+        "attack": 3,
+        "defence": 3,
+        "rarity": "ship_gold.png",
+        "border": "ship_card_borders.png"
+    },
+    {
+        "title": "Žybsius",
+        "image": "ship_Zybsius.jpg",
+        "class": "Laivas",
+        "cost": 2,
+        "motto": "Greitas laivas ir įsiutęs kapitonas (nes laivas per greitas).",
+        "attack": 2,
+        "defence": 4,
+        "rarity": "ship_bronze.png",
+        "border": "ship_card_borders.png"
+    },
+    {
+        "title": "Katapulta",
         "image": "weapon_Katapulta.png",
-        "class": "GINKLAS",
+        "class": "Ginklas",
         "effect": "+2 puolimo taškai pasirinktam laivui.",
         "motto": "Sunku pataikyti, bet jeigu jau pataiko...",
         "rarity": "weapon_bronze.png",
         "border": "weapon_card_borders.png"
     },
     {
-        "title": "APKAUSTIMAS",
+        "title": "Arbaletas",
+        "image": "weapon_Arbaletas.jpg",
+        "class": "Ginklas",
+        "effect": "+3 puolimo taškai pasirinktam kapitonui.\nIšmesk iš rankos 1 kortą.",
+        "motto": "Primerkus vieną akį taikytis lengviau, negu abi.",
+        "rarity": "weapon_bronze.png",
+        "border": "weapon_card_borders.png"
+    },
+    {
+        "title": "Deimantinis Durklas",
+        "image": "weapon_DeimantinisDurklas.jpg",
+        "class": "Ginklas",
+        "effect": "+2 puolimo taškai pasirinktam savo kapitonui.Nebegalima mažinti šio kapitono puolimo taškų.",
+        "motto": "Už deimantą gamtoje kietesnis tik jo savininkas.",
+        "rarity": "weapon_silver.png",
+        "border": "weapon_card_borders.png"
+    },
+    {
+        "title": "Juodojo Maro Bomba",
+        "image": "weapon_JuodojoMaroBomba.jpg",
+        "class": "Ginklas",
+        "effect": "+8 puolimo taškai pasirinktam savo kapitonui.\n Ėjimo gale paaukok šio kapitono laivą.",
+        "motto": "Ir viskas...",
+        "rarity": "weapon_gold.png",
+        "border": "weapon_card_borders.png"
+    },
+    {
+        "title": "Koviniai Kirviai",
+        "image": "weapon_KoviniaiKirviai.jpg",
+        "class": "Ginklas",
+        "effect": "+1 puolimo taškas pasirinktam kapitonui.\n-1 gynybos taškas pasirinktam laivui.",
+        "motto": "Du už vieno kainą.",
+        "rarity": "weapon_bronze.png",
+        "border": "weapon_card_borders.png"
+    },
+    {
+        "title": "Kuvalda",
+        "image": "weapon_Kuvalda.jpg",
+        "class": "Ginklas",
+        "effect": "+2 puolimo taškai pasirinktam kapitonui. Jei tas kapitonas - Rėksnys Kuvaldas, jam +3 puolimo taškai.",
+        "motto": "Jei jau pakeli, tai ir moki naudotis.",
+        "rarity": "weapon_silver.png",
+        "border": "weapon_card_borders.png"
+    },
+    {
+        "title": "Narkozė",
+        "image": "weapon_Narkoze.jpg",
+        "class": "Ginklas",
+        "effect": "Iki ėjimo pabaigos priešininko flagmano kapitono neveikia sugebėjimai ir jo taškai yra 0/0",
+        "motto": "Atsijungė!",
+        "rarity": "weapon_silver.png",
+        "border": "weapon_card_borders.png"
+    },
+    {
+        "title": "Nunčiakai",
+        "image": "weapon_Nunciakai.jpg",
+        "class": "Ginklas",
+        "effect": "-3 gynybos taškai pasirinktam priešininko kapitonui.\n -1 puolimo taškas pasirinktam savo kapitonui.",
+        "motto": "Jei nemoki naudotis, gali ir sau užsitvoti.",
+        "rarity": "weapon_bronze.png",
+        "border": "weapon_card_borders.png"
+    },
+    {
+        "title": "Patranka",
+        "image": "weapon_Patranka.jpg",
+        "class": "Ginklas",
+        "effect": "+5 puolimo taškai pasirinktam laivui. Ėjimo metu galima panaudoti ti šį vieną ginklą.",
+        "motto": "Užtaisyk! Taikyk! Ugnis!!!",
+        "rarity": "weapon_gold.png",
+        "border": "weapon_card_borders.png"
+    },
+    {
+        "title": "Rūstybės Žiedas",
+        "image": "weapon_RustybesZiedas.jpg",
+        "class": "Ginklas",
+        "effect": "+2 puolimo taškai pasirinktam kapitonui.",
+        "motto": "\"Kai žiedas spaudžia, labai susinervinu!\"",
+        "rarity": "weapon_bronze.png",
+        "border": "weapon_card_borders.png"
+    },
+    {
+        "title": "Salamandros Žiedas",
+        "image": "weapon_SalamandrosZiedas.jpg",
+        "class": "Ginklas",
+        "effect": "Išmesk iš rankos visas kortas ir trauk tiek pat kortų kiek turėjai.",
+        "motto": "--Neįskaitoma--",
+        "rarity": "weapon_silver.png",
+        "border": "weapon_card_borders.png"
+    },
+    {
+        "title": "Taranas",
+        "image": "weapon_Taranas.png",
+        "class": "Ginklas",
+        "effect": "-2 gynybos taškai pasirinktam laivui.",
+        "motto": "Verčia, kaip avinas naujus vartus.",
+        "rarity": "weapon_bronze.png",
+        "border": "weapon_card_borders.png"
+    },
+    {
+        "title": "Trotilo Užtaisas",
+        "image": "weapon_TrotiloUztaisas.jpg",
+        "class": "Ginklas",
+        "effect": "+4 puolimo taškai pasirinktam savo kapitonui.\n Ėjimo gale paaukok tą kapitoną.",
+        "motto": "Vaje, pats nespėsiu pabėg...",
+        "rarity": "weapon_silver.png",
+        "border": "weapon_card_borders.png"
+    },
+    {
+        "title": "Apkaustimas",
         "image": "maneuver_Apkaustimas.png",
-        "class": "MANEVRAS",
+        "class": "Manevras",
         "effect": "+2 gynybos taškai pasirinktam laivui.",
         "motto": "Ne visada antsvoris yra blogai.",
+        "rarity": "maneuver_bronze.png",
+        "border": "maneuver_card_borders.png",
+        "color": "black"
+    },
+    {
+        "title": "Alkanas Gynėjas",
+        "image": "maneuver_AlkanasGynejas.jpg",
+        "class": "Manevras",
+        "effect": "+3 gynybos taškai pasirinktam laivui. Jei pavyko apsiginti, prieš kito savo ėjimo pradžią paaukok šio laivo kapitoną.",
+        "rarity": "maneuver_silver.png",
+        "border": "maneuver_card_borders.png",
+        "color": "black"
+    },
+    {
+        "title": "Į Užtarnautą Poilsį",
+        "image": "maneuver_IUztaurnautaPoilsi.jpg",
+        "class": "Manevras",
+        "effect": "Mūšio metu gali pakeisti flagmatą kitu savo laivyno laivu.",
+        "motto": "Dėkojame už puikią tarnybą!",
+        "rarity": "maneuver_silver.png",
+        "border": "maneuver_card_borders.png",
+        "color": "black"
+    },
+    {
+        "title": "Generalinis Valymas",
+        "image": "maneuver_GeneralinisValimas.jpg",
+        "class": "Manevras",
+        "effect": "+1 gynybos taškas pasirinktam laivui.\n-1 puolimo taškas pasirinktam laivui.",
+        "motto": "Švariam laive smagiau ir gintis.",
+        "rarity": "maneuver_bronze.png",
+        "border": "maneuver_card_borders.png",
+        "color": "black"
+    },
+    {
+        "title": "Mėsos Kokteilis",
+        "image": "maneuver_MesosKokteilis.jpg",
+        "class": "Manevras",
+        "effect": "+2 gynybos taškai pasirinktam kapitonui. Tai yra paskutinis šio ėjimo manevras.",
+        "motto": "Mėsa suteikia jėgos, bet sulėtina mąstymą.",
+        "rarity": "maneuver_bronze.png",
+        "border": "maneuver_card_borders.png",
+        "color": "black"
+    },
+    {
+        "title": "Širdies Smūgis",
+        "image": "maneuver_SirdiesSmugis.jpg",
+        "class": "Manevras",
+        "effect": "-3 puolimo taškai pasirinktam kapitonui.",
+        "motto": "Tas karas vis tik yra šioks toks stresas.",
+        "rarity": "maneuver_silver.png",
+        "border": "maneuver_card_borders.png",
+        "color": "black"
+    },
+    {
+        "title": "Sotūs Pietūs",
+        "image": "maneuver_SotusPietus.jpg",
+        "class": "Manevras",
+        "effect": "+3 gynybos taškai pasirinktam kapitonui. Priešininkas traukia 1 kortą.",
+        "motto": "Gero apetito!",
+        "rarity": "maneuver_silver.png",
+        "border": "maneuver_card_borders.png",
+        "color": "black"
+    },
+    {
+        "title": "Raumenų Pompa",
+        "image": "maneuver_RaumenuPompa.jpg",
+        "class": "Manevras",
+        "effect": "+2 gynybos taškai pasirinktam kapitonui.",
+        "motto": "Kartais raumenų naudoti nereikia, užtenka juos turėti.",
         "rarity": "maneuver_bronze.png",
         "border": "maneuver_card_borders.png",
         "color": "black"
