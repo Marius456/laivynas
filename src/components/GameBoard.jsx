@@ -6,7 +6,11 @@ export function GameBoard() {
     const drop = (e) => {
         e.preventDefault();
         const div_id = e.dataTransfer.getData("div_id");
+        console.log("div_id:")
+        console.log(div_id)
         const block = document.getElementById(div_id);
+        console.log("block:")
+        console.log(block)
         let dropIndex = Array.from(e.target.children).findIndex(
             (child) => child.getBoundingClientRect().bottom > e.clientY
         );
@@ -23,6 +27,8 @@ export function GameBoard() {
 
     const dragStart = (e) => {
         const target = e.target;
+        console.log("target:")
+        console.log(target)
         e.dataTransfer.setData("div_id", target.id);
     };
 
@@ -54,7 +60,6 @@ export function GameBoard() {
                     onDragOver={dragOver1}
                     className="card-place"
                     style={{ left: "2em", bottom: "2em" }}>
-
                 </div>
                 <div
                     id="ship-place-2"
@@ -62,7 +67,6 @@ export function GameBoard() {
                     onDragOver={dragOver1}
                     className="card-place"
                     style={{ left: "15em", bottom: "2em" }}>
-
                 </div>
                 <div
                     id="ship-place-3"
@@ -70,7 +74,6 @@ export function GameBoard() {
                     onDragOver={dragOver1}
                     className="card-place"
                     style={{ left: "29em", bottom: "2em" }}>
-
                 </div>
                 <div
                     id="ship-place-4"
@@ -78,7 +81,6 @@ export function GameBoard() {
                     onDragOver={dragOver1}
                     className="card-place"
                     style={{ left: "42em", bottom: "2em" }}>
-
                 </div>
                 <div
                     id="ship-place-5"
@@ -111,33 +113,8 @@ export function GameBoard() {
                     draggable
                     onDragStart={dragStart}
                     onDragOver={dragOver}
-                    {...cards[0]} />
-                <div
-                    id="card1"
-                    draggable
-                    onDragStart={dragStart}
-                    onDrop={drop}
-                    onDragOver={dragOver1}
-                    className="card"
-                    style={{ backgroundColor: "green" }}>
-
-                </div>
-                <div
-                    id="card2"
-                    draggable
-                    onDragStart={dragStart}
-                    onDrop={drop}
-                    onDragOver={dragOver1}
-                    className="card"
-                    style={{ backgroundColor: "red" }} />
-                <div
-                    id="card3"
-                    draggable
-                    onDragStart={dragStart}
-                    onDrop={drop}
-                    onDragOver={dragOver1}
-                    className="card"
-                    style={{ backgroundColor: "cyan" }} />
+                    {...cards[0]}>
+                </Card>
             </div>
         </>
     )
