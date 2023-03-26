@@ -1,0 +1,24 @@
+.board-box {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+
+.board-box .board-image {
+    width: 100%;
+    height: fit-content;
+}
+
+.board-box .card-place {
+    position: absolute;
+    z-index: 2;
+    width: 10em;
+    height: 15em;
+}
+
+.card {
+    z-index: 2;
+    width: 10em;
+    height: 15em;
+    border-radius: 10px;
+}
